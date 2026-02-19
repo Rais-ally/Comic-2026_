@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login | COMIC 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAVBAR -->
+<div class="topbar">
+    <div class="logo">COMIC 2026</div>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+</div>
+
+<!-- SIDE MENU -->
+<div class="side-menu" id="sideMenu">
+<ul>
+<li><a href="index.html">Beranda</a></li>
+<li><a href="lomba.html">Lomba</a></li>
+<li><a href="panduan.html">Panduan</a></li>
+<li><a href="about.html">Tentang IC</a></li>
+<li><a href="jadwal.html">Jadwal</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="daftar.html">Daftar</a></li>
+</ul>
+</div>
+
+<section class="reveal active">
+    <h2>Login Peserta</h2>
+
+    <div class="about" style="max-width:400px;">
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="Masukkan email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Masukkan password" required>
+
+            <button type="submit" class="btn daftar" style="margin-top:20px;">
+                Login
+            </button>
+        </form>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

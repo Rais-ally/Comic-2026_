@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COMIC 2026 | Beranda</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<audio id="clickSound"
+src="https://assets.mixkit.co/sfx/preview/mixkit-fast-small-sweep-transition-166.wav">
+</audio>
+
+<!-- LOADING -->
+<div id="loading">
+    <div class="loading-title">
+         <span>C</span><span>O</span><span>M</span><span>I</span><span>C</span>
+    </div>
+    <div class="loading-text">tunggu sebentar...</div>
+    <div class="loading-bar">
+        <div class="loading-progress"></div>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<div class="topbar">
+    <div class="logo">COMIC 2026</div>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+</div>
+
+<!-- SIDE MENU -->
+<div class="side-menu" id="sideMenu">
+<ul>
+<li><a href="index.html">Beranda</a></li>
+<li><a href="lomba.html">Lomba</a></li>
+<li><a href="panduan.html">Panduan</a></li>
+<li><a href="about.html">Tentang IC</a></li>
+<li><a href="jadwal.html">Jadwal</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="daftar.html">Daftar</a></li>
+</ul>
+</div>
+
+<!-- HERO -->
+ <div class="hero">
+    <h1>COMIC 2026</h1>
+    <div class="subtitle">
+        Competition of MAN Insan Cendekia Aceh Timur
+    </div>
+
+    <div class="buttons">
+        <a href="daftar.html" class="btn daftar">
+            <span>Daftar Sekarang</span>
+        </a>
+
+        <a href="panduan.html" class="btn panduan">
+            <span>Panduan</span>
+        </a>
+    </div>
+</div>
+
+<!-- COUNTDOWN SECTION -->
+<section class="countdown-section">
+  <h1>Batas Waktu Pendaftaran</h1>
+  <p id="countdown-text">Tutup Pendaftaran dalam: <span id="countdown-total"></span></p>
+  
+  <div class="countdown-boxes">
+    <div class="box"><span id="days">00</span><small>Hari</small></div>
+    <div class="box"><span id="hours">00</span><small>Jam</small></div>
+    <div class="box"><span id="minutes">00</span><small>Menit</small></div>
+    <div class="box"><span id="seconds">00</span><small>Detik</small></div>
+  </div>
+</section>
+
+
+<!-- LOMBA SECTION -->
+<section class="reveal">
+    <h2>Jenis Lomba</h2>
+
+    <div class="cards">
+
+        <div class="card"><h3>🏐 Volly</h3></div>
+        <div class="card"><h3>🧪 Olimpiade Fisika</h3></div>
+        <div class="card"><h3>📐 Olimpiade Matematika</h3></div>
+        <div class="card"><h3>🧠 Cerdas Cermat</h3></div>
+        <div class="card"><h3>🏆 Ranking 1</h3></div>
+        <div class="card"><h3>🎤 Lomba Nyanyi</h3></div>
+
+    </div>
+</section>
+
+
+<!-- WELCOME SECTION -->
+<section class="reveal active">
+    <h2>Welcome To COMIC 2026</h2>
+
+    <div class="about">
+        <p>
+         COMIC 2026 – Competition of MAN Insan Cendekia Aceh Timur
+         COMIC 2026 is an academic, non-academic, and arts competition event organized by MAN Insan Cendekia Aceh Timur. This event is designed as a platform for students to develop their talents, creativity, knowledge, and character through healthy competition.
+         COMIC stands for Competition of MAN Insan Cendekia. It is an annual event that brings together students from various schools to compete in different fields. The event reflects the spirit of excellence, innovation, and collaboration promoted by MAN IC Aceh Timur.
+        </p>
+
+        <p>
+         Objectives of COMIC 2026
+         The main goals of COMIC 2026 are:
+         To enhance students’ academic abilities through competitions such as mathematics, science, and other intellectual challenges.
+         To develop non-academic skills like leadership, teamwork, and critical thinking.
+         To provide a platform for artistic expression, including singing, performing arts, and other creative competitions.
+         To strengthen friendship and networking among students from different schools.
+         To promote the values of discipline, integrity, and sportsmanship.
+        </p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

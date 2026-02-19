@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COMIC 2026 | Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<audio id="clickSound"
+src="https://assets.mixkit.co/sfx/preview/mixkit-fast-small-sweep-transition-166.wav">
+</audio>
+
+<!-- LOADING -->
+<div id="loading">
+    <div class="loading-title">COMIC</div>
+    <div class="loading-text">membuka formulir...</div>
+    <div class="loading-bar">
+        <div class="loading-progress"></div>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<div class="topbar">
+    <div class="logo">COMIC 2026</div>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+</div>
+
+<!-- SIDE MENU -->
+<div class="side-menu" id="sideMenu">
+<ul>
+<li><a href="index.html">Beranda</a></li>
+<li><a href="lomba.html">Lomba</a></li>
+<li><a href="about.html">Tentang IC</a></li>
+<li><a href="jadwal.html">Jadwal</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="daftar.html">Daftar</a></li>
+</ul>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Registration Form</h1>
+    <div class="subtitle">Join COMIC 2026 Now</div>
+</div>
+
+<!-- FORM SECTION -->
+<section>
+
+<h2>Participant Registration</h2>
+
+<div class="card reveal" style="max-width:600px;margin:auto;">
+
+<form>
+
+<label>Nama Lengkap</label>
+<input type="text" placeholder="Masukkan Nama Lengkap" required>
+
+<label>Asal Sekolah</label>
+<input type="text" placeholder="Masukkan Nama Sekolah" required>
+
+<label>Email</label>
+<input type="email" placeholder="Masukkan Email Aktif" required>
+
+<label>Nomor WhatsApp</label>
+<input type="text" placeholder="08xxxxxxxxxx" required>
+
+<label>Pilih Lomba</label>
+<select required>
+<option value="">-- Pilih Lomba --</option>
+<option>Voli</option>
+<option>Olimpiade Fisika</option>
+<option>Olimpiade Matematika</option>
+<option>Cerdas Cermat</option>
+<option>Ranking 1</option>
+<option>Lomba Nyanyi</option>
+</select>
+
+<label>Upload Bukti Pembayaran</label>
+<input type="file">
+
+<button type="submit" class="btn daftar" style="width:100%;margin-top:20px;">
+Kirim Pendaftaran
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
